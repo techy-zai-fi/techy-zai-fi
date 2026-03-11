@@ -3,7 +3,7 @@
 <!-- Header Banner -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=220&section=header&text=Balaji%20G&fontSize=72&fontColor=ffffff&fontAlignY=35&desc=AI%20Systems%20Engineer%20%7C%20Digital%20Platform%20Builder%20%7C%20MBA-DBM&descSize=18&descAlignY=55&descColor=8b949e&animation=fadeIn" />
 
-**`Building AI systems that reason & scale`**
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=340&height=25&lines=Building+AI+systems+that+reason+%26+scale)](https://git.io/typing-svg)
 
 <br/>
 
