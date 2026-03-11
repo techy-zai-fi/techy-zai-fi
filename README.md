@@ -4,7 +4,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=220&section=header&text=Balaji%20G&fontSize=72&fontColor=ffffff&fontAlignY=35&desc=AI%20Systems%20Engineer%20%7C%20Digital%20Platform%20Builder%20%7C%20MBA-DBM&descSize=18&descAlignY=55&descColor=8b949e&animation=fadeIn" />
 
 <!-- Typing Animation -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=500&height=70&lines=Designing+intelligent+systems+that+reason%2C+learn+%26+scale;Building+where+AI+meets+structured+architecture)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=435&height=25&lines=Designing+intelligent+systems+that+reason+and+scale)](https://git.io/typing-svg)
 
 <br/>
 
@@ -142,21 +142,6 @@ graph LR
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-</div>
-
----
-
-## GitHub Stats
-
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=techy-zai-fi&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=238636&text_color=8b949e&ring_color=1f6feb" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=techy-zai-fi&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=1f6feb&fire=da3633&currStreakLabel=58a6ff&sideLabels=8b949e&dates=6e7681" />
-
-<br/><br/>
-
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=techy-zai-fi&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e" />
 
 </div>
 
