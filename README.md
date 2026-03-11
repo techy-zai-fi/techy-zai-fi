@@ -4,7 +4,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=220&section=header&text=Balaji%20G&fontSize=72&fontColor=ffffff&fontAlignY=35&desc=AI%20Systems%20Engineer%20%7C%20Digital%20Platform%20Builder%20%7C%20MBA-DBM&descSize=18&descAlignY=55&descColor=8b949e&animation=fadeIn" />
 
 <!-- Typing Animation -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=80&lines=Designing+intelligent+systems+that+reason%2C+learn+%26+scale;Building+where+AI+meets+structured+architecture)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=80&lines=  Designing+intelligent+systems+that+reason%2C+learn+%26+scale;Building+where+AI+meets+structured+architecture)](https://git.io/typing-svg)
 
 <br/>
 
@@ -24,14 +24,14 @@
  ╔══════════════════════════════════════════════════════════════════════╗
  ║                                                                      ║
  ║   Engineer focused on designing intelligent software systems that    ║
- ║   combine structured data, analytics, and modern AI capabilities    ║
- ║   to create real-world digital platforms.                           ║
+ ║   combine structured data, analytics, and modern AI capabilities     ║
+ ║   to create real-world digital platforms.                            ║
  ║                                                                      ║
- ║   The work sits at the intersection of:                             ║
- ║     → AI systems & LLM architectures                               ║
- ║     → Data-driven platforms & analytics pipelines                   ║
- ║     → Digital product ecosystems                                    ║
- ║     → Intelligent decision-support systems                          ║
+ ║   The work sits at the intersection of:                              ║
+ ║     → AI systems & LLM architectures                                 ║
+ ║     → Data-driven platforms & analytics pipelines                    ║
+ ║     → Digital product ecosystems                                     ║
+ ║     → Intelligent decision-support systems                           ║
  ║                                                                      ║
  ╚══════════════════════════════════════════════════════════════════════╝
 ```
