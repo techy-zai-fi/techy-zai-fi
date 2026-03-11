@@ -4,7 +4,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=220&section=header&text=Balaji%20G&fontSize=72&fontColor=ffffff&fontAlignY=35&desc=AI%20Systems%20Engineer%20%7C%20Digital%20Platform%20Builder%20%7C%20MBA-DBM&descSize=18&descAlignY=55&descColor=8b949e&animation=fadeIn" />
 
 <!-- Typing Animation -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=80&lines=Designing+intelligent+systems+that+reason%2C+learn+%26+scale;Building+where+AI+meets+structured+architecture)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=500&height=70&lines=Designing+intelligent+systems+that+reason%2C+learn+%26+scale;Building+where+AI+meets+structured+architecture)](https://git.io/typing-svg)
 
 <br/>
 
@@ -98,107 +98,6 @@ graph LR
 | **Data-First Architecture** | Systems built to capture, structure, and analyze data effectively before focusing on presentation layers |
 | **Practical AI Integration** | AI as a tool for solving real problems — analytics automation, intelligent recommendations, structured reasoning |
 | **Iterative Prototyping** | Rapid implementation, testing, and improvement to explore architectures before converging on scalable systems |
-
----
-
-## Selected Projects
-
-<div align="center">
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-<h3 align="center">Digital Platforms</h3>
-
-<a href="https://github.com/techy-zai-fi/e-cap">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=techy-zai-fi&repo=e-cap&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=238636&text_color=8b949e" />
-</a>
-
-Elective management portal for IIM-BG — course selections, workflows & institutional processes.
-
-<a href="https://github.com/techy-zai-fi/bloomscape-guide">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=techy-zai-fi&repo=bloomscape-guide&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=238636&text_color=8b949e" />
-</a>
-
-Interactive plant & garden intelligence platform with AI-driven recommendations.
-
-<a href="https://github.com/techy-zai-fi/garden-planning">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=techy-zai-fi&repo=garden-planning&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=238636&text_color=8b949e" />
-</a>
-
-Structured environmental planning with data models and guided decision interfaces.
-
-</td>
-<td width="50%" valign="top">
-
-<h3 align="center">Governance & Coordination</h3>
-
-<a href="https://github.com/techy-zai-fi/clan-conqueror-central">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=techy-zai-fi&repo=clan-conqueror-central&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=238636&text_color=8b949e" />
-</a>
-
-Group governance and collaborative decision framework platform.
-
-<a href="https://github.com/techy-zai-fi/iimbg-election-hub">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=techy-zai-fi&repo=iimbg-election-hub&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=238636&text_color=8b949e" />
-</a>
-
-Transparent election management for institutional environments.
-
-<a href="https://github.com/techy-zai-fi/fairness-compass">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=techy-zai-fi&repo=fairness-compass&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=238636&text_color=8b949e" />
-</a>
-
-Frameworks for evaluating fairness and transparency in digital decision systems.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<h3 align="center">Analytics & Data Systems</h3>
-
-<a href="https://github.com/techy-zai-fi/analytics-project">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=techy-zai-fi&repo=analytics-project&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=238636&text_color=8b949e" />
-</a>
-
-Data exploration and analytical modeling — transforming raw data into actionable insights.
-
-<a href="https://github.com/techy-zai-fi/highsfield-mixmedia-prototype">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=techy-zai-fi&repo=highsfield-mixmedia-prototype&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=238636&text_color=8b949e" />
-</a>
-
-Experimental AI + media processing exploring hybrid digital workflows.
-
-</td>
-<td width="50%" valign="top">
-
-<h3 align="center">Automation & Utilities</h3>
-
-<a href="https://github.com/techy-zai-fi/mass-mailer">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=techy-zai-fi&repo=mass-mailer&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=238636&text_color=8b949e" />
-</a>
-
-Automated internal communication and structured message distribution.
-
-<a href="https://github.com/techy-zai-fi/ppt-to-pdf-converter">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=techy-zai-fi&repo=ppt-to-pdf-converter&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=238636&text_color=8b949e" />
-</a>
-
-Batch document transformation automation tool.
-
-<a href="https://github.com/techy-zai-fi/schedule-converter">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=techy-zai-fi&repo=schedule-converter&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=238636&text_color=8b949e" />
-</a>
-
-Lightweight schedule data format transformation utility.
-
-</td>
-</tr>
-</table>
-
-</div>
 
 ---
 
