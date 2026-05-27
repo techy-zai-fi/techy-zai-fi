@@ -1,0 +1,104 @@
+<svg width="560" height="180" viewBox="0 0 560 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub profile stats scoreboard</title>
+  <desc id="desc">A dark native GitHub profile stats scoreboard with four columns showing total contributions, public repos, active projects, and always shipping status.</desc>
+  <defs>
+    <linearGradient id="scoreboardBackgroundGradient" x1="0" y1="0" x2="560" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#060A12"/>
+      <stop offset="0.52" stop-color="#0D1117"/>
+      <stop offset="1" stop-color="#101111"/>
+    </linearGradient>
+    <linearGradient id="scoreboardBorderGradient" x1="0" y1="0" x2="560" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8" stop-opacity="0.38"/>
+      <stop offset="0.5" stop-color="#F97316" stop-opacity="0.48"/>
+      <stop offset="1" stop-color="#F3EEE4" stop-opacity="0.10"/>
+    </linearGradient>
+    <linearGradient id="scoreboardDividerGradient" x1="0" y1="34" x2="0" y2="148" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="0.48" stop-color="#F97316" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#F3EEE4" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="scoreboardAmberNumberGradient" x1="26" y1="70" x2="142" y2="118" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3EEE4"/>
+      <stop offset="0.46" stop-color="#F97316"/>
+      <stop offset="1" stop-color="#F6B46B"/>
+    </linearGradient>
+    <linearGradient id="scoreboardBlueNumberGradient" x1="170" y1="70" x2="254" y2="118" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3EEE4"/>
+      <stop offset="0.56" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#49C7F2"/>
+    </linearGradient>
+    <linearGradient id="scoreboardPurpleNumberGradient" x1="316" y1="70" x2="366" y2="118" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3EEE4"/>
+      <stop offset="0.56" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#C084FC"/>
+    </linearGradient>
+    <linearGradient id="scoreboardShippingGradient" x1="424" y1="76" x2="538" y2="111" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3EEE4"/>
+      <stop offset="0.52" stop-color="#F97316"/>
+      <stop offset="1" stop-color="#E88A36"/>
+    </linearGradient>
+    <radialGradient id="scoreboardAmberGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(440 45) rotate(15) scale(190 90)">
+      <stop stop-color="#F97316" stop-opacity="0.28"/>
+      <stop offset="0.52" stop-color="#E88A36" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#060A12" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="scoreboardBlueGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(128 124) rotate(-8) scale(230 90)">
+      <stop stop-color="#38BDF8" stop-opacity="0.16"/>
+      <stop offset="0.55" stop-color="#0B4B78" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#060A12" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scoreboardSparkGradient" x1="25" y1="151" x2="535" y2="117" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="0.24" stop-color="#49C7F2" stop-opacity="0.34"/>
+      <stop offset="0.55" stop-color="#F97316" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#F3EEE4" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="scoreboardMicroGrid" width="40" height="36" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V36" stroke="#C7D8E4" stroke-opacity="0.035" stroke-width="1"/>
+      <circle cx="0" cy="0" r="1" fill="#49C7F2" fill-opacity="0.06"/>
+    </pattern>
+    <filter id="scoreboardTextGlow" x="-20%" y="-45%" width="140%" height="190%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.94  0 1 0 0 0.53  0 0 1 0 0.18  0 0 0 0.35 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="scoreboardBlueSoftGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.14  0 0 0 0 0.64  0 0 0 0 0.96  0 0 0 0.58 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="560" height="180" rx="8" fill="url(#scoreboardBackgroundGradient)"/>
+  <rect width="560" height="180" rx="8" fill="url(#scoreboardMicroGrid)" opacity="0.78"/>
+  <rect width="560" height="180" rx="8" fill="url(#scoreboardBlueGlow)"/>
+  <rect width="560" height="180" rx="8" fill="url(#scoreboardAmberGlow)"/>
+  <path d="M23 41H108L138 22H228" stroke="#49C7F2" stroke-opacity="0.18" stroke-width="1"/>
+  <path d="M326 30H407L434 57H526" stroke="#E88A36" stroke-opacity="0.24" stroke-width="1.1"/>
+  <path d="M26 144C74 132 100 139 142 126C181 114 202 93 244 100C291 108 302 130 350 118C394 107 417 84 462 95C493 102 511 118 535 111" stroke="url(#scoreboardSparkGradient)" stroke-width="1.4"/>
+  <g opacity="0.55">
+    <circle cx="142" cy="126" r="3.2" fill="#49C7F2" fill-opacity="0.62" filter="url(#scoreboardBlueSoftGlow)"/>
+    <circle cx="244" cy="100" r="3" fill="#F6B46B" fill-opacity="0.62"/>
+    <circle cx="350" cy="118" r="3" fill="#49C7F2" fill-opacity="0.50"/>
+    <circle cx="462" cy="95" r="3.2" fill="#F6B46B" fill-opacity="0.58"/>
+  </g>
+  <path d="M150 34V148" stroke="url(#scoreboardDividerGradient)" stroke-width="1"/>
+  <path d="M280 34V148" stroke="url(#scoreboardDividerGradient)" stroke-width="1"/>
+  <path d="M410 34V148" stroke="url(#scoreboardDividerGradient)" stroke-width="1"/>
+  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="27" y="96" fill="url(#scoreboardAmberNumberGradient)" filter="url(#scoreboardTextGlow)" font-size="38" font-weight="750">1,424</text>
+    <text x="28" y="121" fill="#8FA8B8" fill-opacity="0.82" font-family="SFMono-Regular, ui-monospace, monospace" font-size="8.5" font-weight="700" letter-spacing="1.25">TOTAL CONTRIBUTIONS</text>
+    <text x="174" y="96" fill="url(#scoreboardBlueNumberGradient)" filter="url(#scoreboardTextGlow)" font-size="38" font-weight="750">30+</text>
+    <text x="174" y="121" fill="#8FA8B8" fill-opacity="0.82" font-family="SFMono-Regular, ui-monospace, monospace" font-size="9" font-weight="700" letter-spacing="1.3">PUBLIC REPOS</text>
+    <text x="320" y="96" fill="url(#scoreboardPurpleNumberGradient)" filter="url(#scoreboardTextGlow)" font-size="38" font-weight="750">12</text>
+    <text x="320" y="121" fill="#8FA8B8" fill-opacity="0.82" font-family="SFMono-Regular, ui-monospace, monospace" font-size="9" font-weight="700" letter-spacing="1.3">ACTIVE PROJECTS</text>
+    <text x="425" y="92" fill="url(#scoreboardShippingGradient)" filter="url(#scoreboardTextGlow)" font-size="19" font-weight="730">Aug 2024 → present</text>
+    <text x="426" y="121" fill="#8FA8B8" fill-opacity="0.82" font-family="SFMono-Regular, ui-monospace, monospace" font-size="9" font-weight="700" letter-spacing="1.25">ALWAYS SHIPPING</text>
+  </g>
+  <rect x="0.5" y="0.5" width="559" height="179" rx="7.5" stroke="url(#scoreboardBorderGradient)"/>
+</svg>

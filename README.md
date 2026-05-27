@@ -210,32 +210,20 @@ const bala = {
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=build-with-bala&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=f97316&icon_color=38bdf8&text_color=c9d1d9&include_all_commits=true&count_private=true" />
+<img src="./assets/stat-scoreboard.svg" alt="1,424 contributions · 30+ repos · 12 active projects · always shipping" width="48%" />
 &nbsp;
-<img height="180" src="https://github-readme-streak-stats.herokuapp.com?user=build-with-bala&theme=tokyonight&hide_border=true&background=0d1117&stroke=f97316&ring=f97316&fire=f97316&currStreakLabel=f97316" />
+<img height="180" src="https://github-readme-streak-stats.herokuapp.com?user=build-with-bala&theme=tokyonight&hide_border=true&background=0d1117&stroke=f97316&ring=f97316&fire=f97316&currStreakLabel=f97316" alt="GitHub streak" />
 
-<br/>
+<br/><br/>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=build-with-bala&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=f97316&text_color=c9d1d9&langs_count=10&hide=jupyter%20notebook,html" />
+<img src="./assets/stat-languages.svg" alt="Top languages: TypeScript, Python, JavaScript, HTML/CSS, Kotlin, Other" width="48%" />
 &nbsp;
-<img height="170" src="https://github-readme-stats.vercel.app/api/wakatime?username=build-with-bala&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=f97316&text_color=c9d1d9&layout=compact" />
+<img src="./assets/stat-impact.svg" alt="Actual impact: InzightED, eCAP, Ahoum" width="48%" />
 
-</div>
+<br/><br/>
 
-<br/>
+<img src="./assets/stat-trophies.svg" width="100%" alt="Co-founder · Shipped 5+ products · 30+ repositories · AI Builder · Open Source · Multi-stack" />
 
-<!-- ============ SNAKE CONTRIBUTION ANIMATION ============ -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/build-with-bala/build-with-bala/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/build-with-bala/build-with-bala/output/github-snake.svg" />
-  <img alt="contribution snake eating my commits" src="https://raw.githubusercontent.com/build-with-bala/build-with-bala/output/github-snake.svg" />
-</picture>
-
-<br/>
-
-<!-- ============ TROPHY SHELF ============ -->
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=build-with-bala&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=8&margin-w=15" />
 </div>
 
 <br/>
