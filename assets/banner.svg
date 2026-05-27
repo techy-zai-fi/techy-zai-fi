@@ -1,0 +1,151 @@
+<svg width="1500" height="500" viewBox="0 0 1500 500" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Build With Bala GitHub profile banner</title>
+  <desc id="desc">A dark cyberpunk minimal geometric banner with circuit patterns, a subtle Bodhi tree silhouette, warm amber accents, electric blue traces, and the text BUILD WITH BALA.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1500" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#060A12"/>
+      <stop offset="0.48" stop-color="#0A1220"/>
+      <stop offset="1" stop-color="#101111"/>
+    </linearGradient>
+
+    <radialGradient id="amberGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1058 252) rotate(8) scale(430 170)">
+      <stop stop-color="#E28531" stop-opacity="0.38"/>
+      <stop offset="0.44" stop-color="#A8501F" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#070B13" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="blueGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(396 206) rotate(-5) scale(520 220)">
+      <stop stop-color="#1BA6D9" stop-opacity="0.22"/>
+      <stop offset="0.46" stop-color="#0B4B78" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#060A12" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="titleGradient" x1="318" y1="212" x2="892" y2="296" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3EEE4"/>
+      <stop offset="0.58" stop-color="#F7B36A"/>
+      <stop offset="1" stop-color="#68C8F7"/>
+    </linearGradient>
+
+    <linearGradient id="traceAmber" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#E88A36" stop-opacity="0"/>
+      <stop offset="0.46" stop-color="#E88A36" stop-opacity="0.82"/>
+      <stop offset="1" stop-color="#F6B46B" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="traceBlue" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#42BDEE" stop-opacity="0"/>
+      <stop offset="0.52" stop-color="#42BDEE" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#42BDEE" stop-opacity="0"/>
+    </linearGradient>
+
+    <pattern id="microGrid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#C7D8E4" stroke-opacity="0.035" stroke-width="1"/>
+      <circle cx="0" cy="0" r="1.35" fill="#7BC7F0" fill-opacity="0.08"/>
+    </pattern>
+
+    <pattern id="codeRain" width="142" height="86" patternUnits="userSpaceOnUse">
+      <text x="8" y="18" fill="#7ED7FF" fill-opacity="0.12" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="11">fn ship()</text>
+      <text x="54" y="47" fill="#F0A35E" fill-opacity="0.10" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="10">ai.build</text>
+      <text x="14" y="74" fill="#9FB3C7" fill-opacity="0.08" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="10">0101</text>
+    </pattern>
+
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.94  0 1 0 0 0.42  0 0 1 0 0.12  0 0 0 0.86 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="blueSoftGlow" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.14  0 0 0 0 0.64  0 0 0 0 0.96  0 0 0 0.75 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="textGlow" x="-8%" y="-36%" width="116%" height="172%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.94  0 0 0 0 0.53  0 0 0 0 0.18  0 0 0 0.35 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="frameClip">
+      <rect width="1500" height="500" rx="0"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frameClip)">
+    <rect width="1500" height="500" fill="url(#bg)"/>
+    <rect width="1500" height="500" fill="url(#microGrid)"/>
+    <rect x="0" y="0" width="1500" height="500" fill="url(#blueGlow)"/>
+    <rect x="0" y="0" width="1500" height="500" fill="url(#amberGlow)"/>
+    <rect x="0" y="0" width="1500" height="500" fill="url(#codeRain)" opacity="0.42"/>
+
+    <path d="M0 423C154 369 249 410 375 371C522 326 576 225 733 248C868 268 938 377 1078 353C1192 333 1254 246 1500 272V500H0V423Z" fill="#05080D" fill-opacity="0.36"/>
+    <path d="M0 83C222 61 339 100 507 83C699 63 832 10 1015 37C1174 60 1307 111 1500 80" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+    <path d="M0 389C197 346 332 358 490 331C651 304 759 229 915 247C1057 264 1128 336 1269 316C1364 302 1420 255 1500 254" stroke="#E88A36" stroke-opacity="0.15" stroke-width="1.2"/>
+
+    <g opacity="0.86">
+      <path d="M73 158H221L259 120H350" stroke="url(#traceBlue)" stroke-width="1.6"/>
+      <path d="M101 315H239L292 262H438" stroke="url(#traceAmber)" stroke-width="1.8"/>
+      <path d="M251 92H323L361 130H454" stroke="#50C8F2" stroke-opacity="0.25" stroke-width="1"/>
+      <path d="M808 121H957L1008 172H1168" stroke="#E88A36" stroke-opacity="0.30" stroke-width="1.1"/>
+      <path d="M896 389H1047L1089 347H1306" stroke="#50C8F2" stroke-opacity="0.22" stroke-width="1"/>
+      <path d="M1190 95H1281L1328 142H1449" stroke="#E88A36" stroke-opacity="0.20" stroke-width="1"/>
+      <path d="M1138 426H1264L1303 387H1460" stroke="url(#traceBlue)" stroke-width="1.4"/>
+
+      <circle cx="221" cy="158" r="4" fill="#49C7F2" fill-opacity="0.75" filter="url(#blueSoftGlow)"/>
+      <circle cx="350" cy="120" r="3" fill="#49C7F2" fill-opacity="0.58"/>
+      <circle cx="292" cy="262" r="4" fill="#F4A35C" fill-opacity="0.75" filter="url(#softGlow)"/>
+      <circle cx="1008" cy="172" r="4" fill="#F4A35C" fill-opacity="0.70"/>
+      <circle cx="1089" cy="347" r="3.4" fill="#49C7F2" fill-opacity="0.62"/>
+      <circle cx="1328" cy="142" r="3.2" fill="#F4A35C" fill-opacity="0.52"/>
+    </g>
+
+    <g opacity="0.6">
+      <path d="M141 390L170 361L199 390L170 419L141 390Z" stroke="#E88A36" stroke-opacity="0.26" stroke-width="1"/>
+      <path d="M169 361V313M170 419V456M141 390H89M199 390H250" stroke="#E88A36" stroke-opacity="0.16" stroke-width="1"/>
+      <circle cx="170" cy="313" r="5.2" fill="#E88A36" fill-opacity="0.42"/>
+      <circle cx="170" cy="390" r="5.2" fill="#E88A36" fill-opacity="0.60" filter="url(#softGlow)"/>
+      <circle cx="170" cy="456" r="5.2" fill="#E88A36" fill-opacity="0.42"/>
+    </g>
+
+    <g transform="translate(1016 43)" opacity="0.88">
+      <path d="M226 346C225 310 224 276 221 246C218 219 212 198 202 182C192 165 180 158 168 162C178 145 187 127 191 107C195 86 190 68 178 53C173 74 160 90 142 101C132 107 120 111 108 112C114 94 112 75 100 57C95 77 83 92 63 102C43 112 24 111 9 103C12 127 24 146 45 160C57 168 69 172 82 173C67 187 58 205 54 225C71 214 89 211 105 218C121 225 133 241 143 265C154 292 160 321 162 346H226Z" fill="#06090F" fill-opacity="0.78"/>
+      <path d="M196 182C178 194 164 206 151 223C138 240 130 259 123 282M151 223C130 211 109 204 85 205M172 142C155 154 140 165 128 183M117 113C105 132 98 151 95 173" stroke="#2C4655" stroke-opacity="0.52" stroke-width="1.4" stroke-linecap="round"/>
+      <path d="M70 372C110 355 162 351 228 363C274 372 316 369 354 355" stroke="#E88A36" stroke-opacity="0.22" stroke-width="1.4"/>
+      <path d="M85 385C133 372 180 371 225 380C276 391 320 386 358 369" stroke="#49C7F2" stroke-opacity="0.16" stroke-width="1"/>
+    </g>
+
+    <g transform="translate(286 182)">
+      <path d="M0 94H608" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1"/>
+      <text x="0" y="66" fill="url(#titleGradient)" filter="url(#textGlow)" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="76" font-weight="650" letter-spacing="8">BUILD WITH BALA</text>
+      <text x="5" y="116" fill="#8FA8B8" fill-opacity="0.70" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="15" letter-spacing="3">build-with-bala</text>
+      <path d="M5 134H164" stroke="#E88A36" stroke-opacity="0.78" stroke-width="2"/>
+      <path d="M176 134H272" stroke="#49C7F2" stroke-opacity="0.46" stroke-width="2"/>
+    </g>
+
+    <g opacity="0.9">
+      <path d="M650 150L720 110L790 150V231L720 271L650 231V150Z" stroke="#50C8F2" stroke-opacity="0.10" stroke-width="1.2"/>
+      <path d="M684 169L720 148L756 169V212L720 233L684 212V169Z" stroke="#E88A36" stroke-opacity="0.20" stroke-width="1"/>
+      <circle cx="720" cy="190" r="3.4" fill="#F2A15C" fill-opacity="0.52"/>
+      <path d="M720 148V111M756 169L792 149M756 212L790 232M720 233V271M684 212L650 232M684 169L650 150" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1"/>
+    </g>
+
+    <g opacity="0.42">
+      <text x="92" y="77" fill="#CBD6DE" fill-opacity="0.22" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="13">former_cto.ai / iim_bg.digital_business_ai / ahoum.goals</text>
+      <text x="1093" y="452" fill="#CBD6DE" fill-opacity="0.18" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="12">ship_when_fragile=true</text>
+    </g>
+
+    <rect x="0.5" y="0.5" width="1499" height="499" stroke="#FFFFFF" stroke-opacity="0.045"/>
+    <rect x="0" y="0" width="1500" height="500" fill="black" opacity="0.03"/>
+  </g>
+</svg>
