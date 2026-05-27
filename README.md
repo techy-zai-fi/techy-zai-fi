@@ -1,9 +1,6 @@
 <!-- ====================================================== -->
 <!--                    BUILD WITH BALA                     -->
-<!--    GitHub Profile README · v2.1 · 2026-05-28           -->
-<!--    NOTE on rename: when you rename `techy-zai-fi`      -->
-<!--    to `build-with-bala`, find/replace `techy-zai-fi`   -->
-<!--    in this file once — widgets will follow.            -->
+<!--    GitHub Profile README · v3.0 · 2026-05-28           -->
 <!-- ====================================================== -->
 
 <div align="center">
@@ -39,7 +36,7 @@
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=techy-zai-fi&label=Profile%20views&color=f97316&style=flat-square" />
+<img src="https://komarev.com/ghpvc/?username=build-with-bala&label=Profile%20views&color=f97316&style=flat-square" />
 
 </div>
 
@@ -86,7 +83,7 @@ const bala = {
     </td>
     <td valign="top">
       <h4>🎮 clan-conqueror-central</h4>
-      <sub>The portal for IIM-BG's Clash of Clans inter-batch sports event. <a href="https://github.com/techy-zai-fi/clan-conqueror-central">repo</a></sub>
+      <sub>The portal for IIM-BG's Clash of Clans inter-batch sports event. <a href="https://github.com/build-with-bala/clan-conqueror-central">repo</a></sub>
     </td>
     <td valign="top">
       <h4>🎬 transparent-video-encoder</h4>
@@ -105,34 +102,101 @@ const bala = {
 
 <div align="center">
 
-<!-- Core / AI -->
-<img src="https://skillicons.dev/icons?i=py,django,fastapi&theme=dark" />
-<br/>
+<h4>Languages</h4>
+
+<img src="https://skillicons.dev/icons?i=py,ts,js,bash,sql,html,css,java,kotlin,cpp&theme=dark&perline=10" />
+
+<h4>AI · LLM · Reasoning</h4>
+
 <img src="https://img.shields.io/badge/LangChain-1c3a3a?style=for-the-badge&logo=langchain&logoColor=white" />
 <img src="https://img.shields.io/badge/LangGraph-0f172a?style=for-the-badge&logo=graphql&logoColor=f97316" />
-<img src="https://img.shields.io/badge/Hierarchical_RAG-2a1a0a?style=for-the-badge&logoColor=f97316" />
+<img src="https://img.shields.io/badge/LlamaIndex-FFB000?style=for-the-badge&logoColor=000" />
+<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
+<img src="https://img.shields.io/badge/Anthropic-D97706?style=for-the-badge&logoColor=white" />
 <img src="https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white" />
 <img src="https://img.shields.io/badge/Mistral-FF7000?style=for-the-badge&logo=mistralai&logoColor=white" />
 <img src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=lightning&logoColor=white" />
-<img src="https://img.shields.io/badge/LiveKit-1a1a1a?style=for-the-badge&logo=livekit&logoColor=white" />
-
-<br/><br/>
-
-<!-- Data / Infra -->
-<img src="https://skillicons.dev/icons?i=postgres,redis,neo4j,docker,nginx,aws,linux&theme=dark" />
+<img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
 <br/>
+<img src="https://img.shields.io/badge/Hierarchical_RAG-2a1a0a?style=for-the-badge&logoColor=f97316" />
+<img src="https://img.shields.io/badge/LLM_as_Evaluator-2a1a0a?style=for-the-badge&logoColor=f97316" />
+<img src="https://img.shields.io/badge/Knowledge_Graphs-2a1a0a?style=for-the-badge&logoColor=38bdf8" />
+<img src="https://img.shields.io/badge/Agent_Frameworks-2a1a0a?style=for-the-badge&logoColor=a371f7" />
+<img src="https://img.shields.io/badge/LiveKit-1a1a1a?style=for-the-badge&logo=livekit&logoColor=white" />
+<img src="https://img.shields.io/badge/Pinecone-1A1A1A?style=for-the-badge&logoColor=00C2C7" />
+<img src="https://img.shields.io/badge/ChromaDB-7B2BF9?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/Qdrant-DC382D?style=for-the-badge&logoColor=white" />
+
+<h4>Backend · APIs</h4>
+
+<img src="https://skillicons.dev/icons?i=django,fastapi,flask,nodejs,express,graphql&theme=dark&perline=10" />
+<br/>
+<img src="https://img.shields.io/badge/Django_REST-092E20?style=for-the-badge&logo=django&logoColor=white" />
 <img src="https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white" />
+<img src="https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white" />
+<img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" />
+<img src="https://img.shields.io/badge/REST_APIs-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
 <img src="https://img.shields.io/badge/Centrifugo-1a1a1a?style=for-the-badge&logoColor=f97316" />
-<img src="https://img.shields.io/badge/Sentry-362D59?style=for-the-badge&logo=sentry&logoColor=white" />
-<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
 
-<br/><br/>
+<h4>Frontend · Mobile</h4>
 
-<!-- Web / Mobile -->
-<img src="https://skillicons.dev/icons?i=react,nextjs,typescript,tailwind,vite&theme=dark" />
+<img src="https://skillicons.dev/icons?i=react,nextjs,vite,tailwind,vue,svelte,threejs&theme=dark&perline=10" />
 <br/>
 <img src="https://img.shields.io/badge/Capacitor-119EFF?style=for-the-badge&logo=capacitor&logoColor=white" />
+<img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" />
+<img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white" />
+<img src="https://img.shields.io/badge/Shadcn_UI-0d1117?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/Radix_UI-161618?style=for-the-badge&logo=radixui&logoColor=white" />
+
+<h4>Data · Storage</h4>
+
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,sqlite,supabase,firebase&theme=dark&perline=10" />
+<br/>
+<img src="https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white" />
+<img src="https://img.shields.io/badge/ClickHouse-FFCC01?style=for-the-badge&logo=clickhouse&logoColor=black" />
+<img src="https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white" />
+<img src="https://img.shields.io/badge/dbt-FF694A?style=for-the-badge&logo=dbt&logoColor=white" />
+
+<h4>Cloud · Infra · DevOps</h4>
+
+<img src="https://skillicons.dev/icons?i=aws,gcp,docker,kubernetes,nginx,terraform,linux,vercel,cloudflare,githubactions&theme=dark&perline=10" />
+<br/>
+<img src="https://img.shields.io/badge/AWS_Amplify-FF9900?style=for-the-badge&logo=awsamplify&logoColor=white" />
+<img src="https://img.shields.io/badge/AWS_S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white" />
+<img src="https://img.shields.io/badge/AWS_Lambda-FF9900?style=for-the-badge&logo=awslambda&logoColor=white" />
+<img src="https://img.shields.io/badge/Coolify-191919?style=for-the-badge&logoColor=8B5CF6" />
 <img src="https://img.shields.io/badge/Puppeteer-40B5A4?style=for-the-badge&logo=puppeteer&logoColor=white" />
+<img src="https://img.shields.io/badge/Ghostscript-1B5E20?style=for-the-badge&logoColor=white" />
+
+<h4>Analytics · Observability · Growth</h4>
+
+<img src="https://img.shields.io/badge/PostHog-000000?style=for-the-badge&logo=posthog&logoColor=white" />
+<img src="https://img.shields.io/badge/GA4-E37400?style=for-the-badge&logo=googleanalytics&logoColor=white" />
+<img src="https://img.shields.io/badge/Mixpanel-9100FF?style=for-the-badge&logo=mixpanel&logoColor=white" />
+<img src="https://img.shields.io/badge/Sentry-362D59?style=for-the-badge&logo=sentry&logoColor=white" />
+<img src="https://img.shields.io/badge/Meta_Ads-1877F2?style=for-the-badge&logo=meta&logoColor=white" />
+<img src="https://img.shields.io/badge/Google_Ads-4285F4?style=for-the-badge&logo=googleads&logoColor=white" />
+<img src="https://img.shields.io/badge/Razorpay-3395FF?style=for-the-badge&logo=razorpay&logoColor=white" />
+<img src="https://img.shields.io/badge/Microsoft_Clarity-3B1FA8?style=for-the-badge&logo=microsoft&logoColor=white" />
+
+<h4>Tools I live in</h4>
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,vim,figma,postman,notion,obsidian&theme=dark&perline=10" />
+<br/>
+<img src="https://img.shields.io/badge/Cursor-0d1117?style=for-the-badge&logo=cursor&logoColor=white" />
+<img src="https://img.shields.io/badge/Claude_Code-D97706?style=for-the-badge&logo=anthropic&logoColor=white" />
+<img src="https://img.shields.io/badge/Codex_CLI-412991?style=for-the-badge&logo=openai&logoColor=white" />
+<img src="https://img.shields.io/badge/MCP_Servers-1a1a1a?style=for-the-badge&logoColor=f97316" />
+<img src="https://img.shields.io/badge/Excalidraw-6965DB?style=for-the-badge&logo=excalidraw&logoColor=white" />
+<img src="https://img.shields.io/badge/Mermaid-FF3670?style=for-the-badge&logo=mermaid&logoColor=white" />
+
+<h4>The MBA lens</h4>
+
+<img src="https://img.shields.io/badge/Strategy_×_Tech-38bdf8?style=for-the-badge&logoColor=white&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/Specialization-Digital_Business_%26_AI-a371f7?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/Platform_Economics-22c55e?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/Data_Governance-eab308?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/Behavioural_Economics-f43f5e?style=for-the-badge&labelColor=0d1117" />
 
 </div>
 
@@ -146,15 +210,15 @@ const bala = {
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=techy-zai-fi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=f97316&icon_color=38bdf8&text_color=c9d1d9&include_all_commits=true&count_private=true" />
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=build-with-bala&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=f97316&icon_color=38bdf8&text_color=c9d1d9&include_all_commits=true&count_private=true" />
 &nbsp;
-<img height="180" src="https://github-readme-streak-stats.herokuapp.com?user=techy-zai-fi&theme=tokyonight&hide_border=true&background=0d1117&stroke=f97316&ring=f97316&fire=f97316&currStreakLabel=f97316" />
+<img height="180" src="https://github-readme-streak-stats.herokuapp.com?user=build-with-bala&theme=tokyonight&hide_border=true&background=0d1117&stroke=f97316&ring=f97316&fire=f97316&currStreakLabel=f97316" />
 
 <br/>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=techy-zai-fi&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=f97316&text_color=c9d1d9&langs_count=10&hide=jupyter%20notebook,html" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=build-with-bala&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=f97316&text_color=c9d1d9&langs_count=10&hide=jupyter%20notebook,html" />
 &nbsp;
-<img height="170" src="https://github-readme-stats.vercel.app/api/wakatime?username=techy-zai-fi&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=f97316&text_color=c9d1d9&layout=compact" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/wakatime?username=build-with-bala&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=f97316&text_color=c9d1d9&layout=compact" />
 
 </div>
 
@@ -162,16 +226,16 @@ const bala = {
 
 <!-- ============ SNAKE CONTRIBUTION ANIMATION ============ -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/techy-zai-fi/techy-zai-fi/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/techy-zai-fi/techy-zai-fi/output/github-snake.svg" />
-  <img alt="contribution snake eating my commits" src="https://raw.githubusercontent.com/techy-zai-fi/techy-zai-fi/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/build-with-bala/build-with-bala/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/build-with-bala/build-with-bala/output/github-snake.svg" />
+  <img alt="contribution snake eating my commits" src="https://raw.githubusercontent.com/build-with-bala/build-with-bala/output/github-snake.svg" />
 </picture>
 
 <br/>
 
 <!-- ============ TROPHY SHELF ============ -->
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=techy-zai-fi&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=8&margin-w=15" />
+<img src="https://github-profile-trophy.vercel.app/?username=build-with-bala&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=8&margin-w=15" />
 </div>
 
 <br/>
