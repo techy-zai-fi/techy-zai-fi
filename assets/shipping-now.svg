@@ -1,0 +1,50 @@
+<svg width="260" height="70" viewBox="0 0 260 70" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Currently shipping Ahoum badge</title>
+  <desc id="desc">A dark rounded badge with a subtly pulsing amber status dot and text reading currently shipping Ahoum.</desc>
+  <defs>
+    <linearGradient id="badgeBackgroundGradient" x1="0" y1="0" x2="260" y2="70" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#060A12"/>
+      <stop offset="0.56" stop-color="#0D1117"/>
+      <stop offset="1" stop-color="#101111"/>
+    </linearGradient>
+    <linearGradient id="badgeBorderGradient" x1="12" y1="10" x2="248" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8" stop-opacity="0.42"/>
+      <stop offset="0.54" stop-color="#F97316" stop-opacity="0.62"/>
+      <stop offset="1" stop-color="#F3EEE4" stop-opacity="0.12"/>
+    </linearGradient>
+    <linearGradient id="badgeTextGradient" x1="66" y1="25" x2="235" y2="45" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3EEE4"/>
+      <stop offset="0.58" stop-color="#F6B46B"/>
+      <stop offset="1" stop-color="#49C7F2"/>
+    </linearGradient>
+    <radialGradient id="pulseDotGradient" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(34 35) scale(17)">
+      <stop stop-color="#F6B46B"/>
+      <stop offset="0.55" stop-color="#F97316"/>
+      <stop offset="1" stop-color="#F97316" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="dotGlow" x="-120%" y="-120%" width="340%" height="340%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.95  0 1 0 0 0.45  0 0 1 0 0.10  0 0 0 0.72 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="badgeMicroGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#C7D8E4" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect x="1" y="1" width="258" height="68" rx="13" fill="url(#badgeBackgroundGradient)"/>
+  <rect x="1" y="1" width="258" height="68" rx="13" fill="url(#badgeMicroGrid)" opacity="0.55"/>
+  <circle cx="34" cy="35" r="12" fill="url(#pulseDotGradient)" opacity="0.34">
+    <animate attributeName="r" values="9;15;9" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.42;0.10;0.42" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="34" cy="35" r="5.3" fill="#F97316" filter="url(#dotGlow)">
+    <animate attributeName="opacity" values="1;0.72;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="58" y="32" fill="#8FA8B8" fill-opacity="0.82" font-family="SFMono-Regular, ui-monospace, monospace" font-size="10" font-weight="700" letter-spacing="1.6">CURRENTLY SHIPPING</text>
+  <text x="58" y="51" fill="url(#badgeTextGradient)" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="720">Ahoum</text>
+  <path d="M215 21H230L239 35L230 49H215L206 35L215 21Z" stroke="#38BDF8" stroke-opacity="0.22" stroke-width="1"/>
+  <rect x="1" y="1" width="258" height="68" rx="13" stroke="url(#badgeBorderGradient)" stroke-width="1"/>
+</svg>

@@ -1,0 +1,82 @@
+<svg width="1200" height="80" viewBox="0 0 1200 80" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Profile achievement strip</title>
+  <desc id="desc">A horizontal dark achievement strip with four bordered cards for ZAi-Fi, founding CTO, MBA at IIM Bodh Gaya, and shipping at Ahoum.</desc>
+  <defs>
+    <linearGradient id="stripBackgroundGradient" x1="0" y1="0" x2="1200" y2="80" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#060A12"/>
+      <stop offset="0.5" stop-color="#0D1117"/>
+      <stop offset="1" stop-color="#101111"/>
+    </linearGradient>
+    <linearGradient id="stripBorderGradient" x1="0" y1="0" x2="1200" y2="80" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8" stop-opacity="0.30"/>
+      <stop offset="0.5" stop-color="#F97316" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#F3EEE4" stop-opacity="0.08"/>
+    </linearGradient>
+    <linearGradient id="amberAccentGradient" x1="18" y1="18" x2="285" y2="62" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3EEE4"/>
+      <stop offset="0.55" stop-color="#F97316"/>
+      <stop offset="1" stop-color="#F6B46B"/>
+    </linearGradient>
+    <linearGradient id="blueAccentGradient" x1="313" y1="18" x2="580" y2="62" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3EEE4"/>
+      <stop offset="0.56" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#49C7F2"/>
+    </linearGradient>
+    <linearGradient id="purpleAccentGradient" x1="608" y1="18" x2="875" y2="62" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3EEE4"/>
+      <stop offset="0.56" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#C084FC"/>
+    </linearGradient>
+    <linearGradient id="greenAccentGradient" x1="903" y1="18" x2="1170" y2="62" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3EEE4"/>
+      <stop offset="0.56" stop-color="#34D399"/>
+      <stop offset="1" stop-color="#86EFAC"/>
+    </linearGradient>
+    <radialGradient id="achievementGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(590 36) scale(620 94)">
+      <stop stop-color="#38BDF8" stop-opacity="0.10"/>
+      <stop offset="0.45" stop-color="#F97316" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#060A12" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="achievementGrid" width="48" height="40" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V40" stroke="#C7D8E4" stroke-opacity="0.03" stroke-width="1"/>
+      <circle cx="0" cy="0" r="1" fill="#49C7F2" fill-opacity="0.06"/>
+    </pattern>
+    <filter id="achievementSoftGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.94  0 1 0 0 0.55  0 0 1 0 0.20  0 0 0 0.38 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="80" rx="8" fill="url(#stripBackgroundGradient)"/>
+  <rect width="1200" height="80" rx="8" fill="url(#achievementGrid)" opacity="0.78"/>
+  <rect width="1200" height="80" rx="8" fill="url(#achievementGlow)"/>
+  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" font-weight="650">
+    <g transform="translate(18 14)">
+      <rect width="267" height="52" rx="7" fill="#060A12" fill-opacity="0.56" stroke="url(#amberAccentGradient)" stroke-opacity="0.48"/>
+      <path d="M25 15L39 23V39L25 47L11 39V23L25 15Z" stroke="#F6B46B" stroke-opacity="0.82" stroke-width="1.4" filter="url(#achievementSoftGlow)"/>
+      <path d="M18 31H32M25 24V38" stroke="#F6B46B" stroke-opacity="0.82" stroke-width="1.4" stroke-linecap="round"/>
+      <text x="52" y="33" fill="url(#amberAccentGradient)">Co-founder · ZAi-Fi</text>
+    </g>
+    <g transform="translate(313 14)">
+      <rect width="267" height="52" rx="7" fill="#060A12" fill-opacity="0.56" stroke="url(#blueAccentGradient)" stroke-opacity="0.48"/>
+      <path d="M12 38H40M16 38V24L26 17L36 24V38M21 38V30H31V38" stroke="#49C7F2" stroke-opacity="0.82" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" filter="url(#achievementSoftGlow)"/>
+      <text x="52" y="33" fill="url(#blueAccentGradient)">Founding CTO · 2024-25</text>
+    </g>
+    <g transform="translate(608 14)">
+      <rect width="267" height="52" rx="7" fill="#060A12" fill-opacity="0.56" stroke="url(#purpleAccentGradient)" stroke-opacity="0.50"/>
+      <path d="M12 22L26 15L40 22L26 29L12 22Z" stroke="#C084FC" stroke-opacity="0.86" stroke-width="1.4" stroke-linejoin="round" filter="url(#achievementSoftGlow)"/>
+      <path d="M18 27V36C24 40 31 40 36 36V27" stroke="#C084FC" stroke-opacity="0.76" stroke-width="1.4" stroke-linecap="round"/>
+      <text x="52" y="33" fill="url(#purpleAccentGradient)">MBA · IIM Bodh Gaya 27</text>
+    </g>
+    <g transform="translate(903 14)">
+      <rect width="267" height="52" rx="7" fill="#060A12" fill-opacity="0.56" stroke="url(#greenAccentGradient)" stroke-opacity="0.50"/>
+      <circle cx="25" cy="26" r="11" stroke="#86EFAC" stroke-opacity="0.82" stroke-width="1.4" filter="url(#achievementSoftGlow)"/>
+      <path d="M20 27L24 31L32 21" stroke="#86EFAC" stroke-opacity="0.86" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="52" y="33" fill="url(#greenAccentGradient)">Shipping @ Ahoum</text>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="79" rx="7.5" stroke="url(#stripBorderGradient)"/>
+</svg>

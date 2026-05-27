@@ -1,6 +1,6 @@
 <!-- ====================================================== -->
 <!--                    BUILD WITH BALA                     -->
-<!--    GitHub Profile README · v3.0 · 2026-05-28           -->
+<!--    GitHub Profile README · v3.1 · 2026-05-28           -->
 <!-- ====================================================== -->
 
 <div align="center">
@@ -11,14 +11,18 @@
 <br/>
 
 <!-- ============ ANIMATED TYPING ============ -->
-<a href="https://github.com/techy-zai-fi">
+<a href="https://github.com/build-with-bala">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=800&color=F97316&center=true&vCenter=true&multiline=false&width=900&height=50&lines=Building+AI+systems+that+reason+and+ship.;Hierarchical+RAG+%C2%B7+LLM-as-evaluator+%C2%B7+Knowledge+graphs;Co-founder+%C2%B7+ZAi-Fi+%E2%86%92+MBA+%C2%B7+IIM-BG+%E2%86%92+Shipping+%40+Ahoum" alt="Identity in three lines" />
 </a>
 
 <br/><br/>
 
-<!-- ============ IDENTITY CHIPS ============ -->
+<!-- ============ ACHIEVEMENTS STRIP ============ -->
+<img src="./assets/achievements.svg" width="100%" alt="Co-founder ZAi-Fi · Founding CTO 2024-25 · MBA IIM Bodh Gaya 27 · Shipping at Ahoum" />
 
+<br/><br/>
+
+<!-- ============ IDENTITY CHIPS ============ -->
 ![Co-founder · ZAi-Fi](https://img.shields.io/badge/Co--founder-ZAi--Fi-f97316?style=for-the-badge&logo=openai&logoColor=white&labelColor=0d1117)
 ![MBA · IIM Bodh Gaya '27](https://img.shields.io/badge/MBA-IIM_Bodh_Gaya_'27-38bdf8?style=for-the-badge&logo=googlescholar&logoColor=white&labelColor=0d1117)
 ![Building · Ahoum](https://img.shields.io/badge/Building-Ahoum-a371f7?style=for-the-badge&logo=meditation&logoColor=white&labelColor=0d1117)
@@ -33,6 +37,13 @@
 <a href="https://www.youtube.com/@buildwithbala"><img src="https://img.shields.io/badge/YouTube-@buildwithbala-ff0000?style=flat-square&logo=youtube&logoColor=white&labelColor=0d1117" /></a>
 &nbsp;
 <a href="https://instagram.com/buildwithbala"><img src="https://img.shields.io/badge/Instagram-@buildwithbala-E4405F?style=flat-square&logo=instagram&logoColor=white&labelColor=0d1117" /></a>
+
+<br/><br/>
+
+<!-- ============ SHIPPING NOW BADGE ============ -->
+<a href="https://seeker.ahoum.com">
+  <img src="./assets/shipping-now.svg" alt="Currently shipping at Ahoum" />
+</a>
 
 <br/>
 
@@ -55,50 +66,39 @@ const bala = {
 
 <br/>
 
----
+<img src="./assets/divider.svg" width="100%" alt="" />
 
 <br/>
 
-## <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f527.png" width="22" /> &nbsp; Currently building
+## <img src="./assets/sigil.svg" width="28" /> &nbsp; Currently building
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h4>🕉️ Ahoum</h4>
-      <sub>"Operating System for the Soul." AI-powered SpiritualTech platform. <a href="https://seeker.ahoum.com">seeker.ahoum.com</a></sub>
-    </td>
-    <td width="33%" valign="top">
-      <h4>🎓 eCAP @ IIM-BG</h4>
-      <sub>Elective Course Allocation Portal. Bid-currency mechanics. Real student impact. <a href="https://ecap.iimbg.ac.in/ecap_2025/">live</a></sub>
-    </td>
-    <td width="33%" valign="top">
-      <h4>📚 prep-lab</h4>
-      <sub>Open-source, exam-agnostic CBT platform with AI-powered analytics. The evolution of what we shipped at InzightED.</sub>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <h4>📡 supplylens</h4>
-      <sub>Real-time logistics situational-awareness cockpit. Gemini-powered. Disruption radar + fleet tracking.</sub>
-    </td>
-    <td valign="top">
-      <h4>🎮 clan-conqueror-central</h4>
-      <sub>The portal for IIM-BG's Clash of Clans inter-batch sports event. <a href="https://github.com/build-with-bala/clan-conqueror-central">repo</a></sub>
-    </td>
-    <td valign="top">
-      <h4>🎬 transparent-video-encoder</h4>
-      <sub>CLI for Safari-ready HEVC alpha + Chrome-ready VP9 alpha + transparent poster. Optional rembg background removal.</sub>
-    </td>
-  </tr>
-</table>
+<div align="center">
+
+<a href="https://seeker.ahoum.com"><img src="./assets/project-ahoum.svg" alt="Ahoum · Operating System for the Soul" width="48%" /></a>
+&nbsp;
+<a href="https://ecap.iimbg.ac.in/ecap_2025/"><img src="./assets/project-ecap.svg" alt="eCAP · IIM-BG Elective Course Allocation Portal" width="48%" /></a>
+
+<br/><br/>
+
+<a href="https://github.com/build-with-bala/prep-lab"><img src="./assets/project-preplab.svg" alt="prep-lab · Open-source exam-agnostic CBT platform" width="48%" /></a>
+&nbsp;
+<a href="https://github.com/build-with-bala/supplylens"><img src="./assets/project-supplylens.svg" alt="supplylens · Real-time logistics cockpit" width="48%" /></a>
+
+<br/><br/>
+
+<a href="https://github.com/build-with-bala/clan-conqueror-central"><img src="./assets/project-clan.svg" alt="clan-conqueror-central · IIM-BG sports event portal" width="48%" /></a>
+&nbsp;
+<a href="https://github.com/build-with-bala/transparent-video-encoder"><img src="./assets/project-tve.svg" alt="transparent-video-encoder · HEVC+VP9 alpha CLI" width="48%" /></a>
+
+</div>
 
 <br/>
 
----
+<img src="./assets/divider.svg" width="100%" alt="" />
 
 <br/>
 
-## <img src="https://github.githubassets.com/images/icons/emoji/unicode/2699.png" width="22" /> &nbsp; The stack I actually ship with
+## <img src="./assets/sigil.svg" width="28" /> &nbsp; The stack I actually ship with
 
 <div align="center">
 
@@ -202,11 +202,11 @@ const bala = {
 
 <br/>
 
----
+<img src="./assets/divider.svg" width="100%" alt="" />
 
 <br/>
 
-## <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4ca.png" width="22" /> &nbsp; The numbers
+## <img src="./assets/sigil.svg" width="28" /> &nbsp; The numbers
 
 <div align="center">
 
@@ -240,11 +240,11 @@ const bala = {
 
 <br/>
 
----
+<img src="./assets/divider.svg" width="100%" alt="" />
 
 <br/>
 
-## <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4ec.png" width="22" /> &nbsp; If you want to reach me
+## <img src="./assets/sigil.svg" width="28" /> &nbsp; If you want to reach me
 
 <div align="center">
 

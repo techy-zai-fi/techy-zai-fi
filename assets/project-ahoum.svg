@@ -1,0 +1,66 @@
+<svg width="480" height="180" viewBox="0 0 480 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Ahoum project card</title>
+  <desc id="desc">A dark project card for Ahoum with concentric circle patterns, amber and blue glows, tags, and an external link glyph.</desc>
+  <defs>
+    <linearGradient id="cardBackgroundGradient" x1="0" y1="0" x2="480" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#060A12"/>
+      <stop offset="0.54" stop-color="#0D1117"/>
+      <stop offset="1" stop-color="#101111"/>
+    </linearGradient>
+    <radialGradient id="cardAmberGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(374 60) rotate(18) scale(180 90)">
+      <stop stop-color="#F97316" stop-opacity="0.30"/>
+      <stop offset="0.52" stop-color="#E88A36" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#060A12" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cardBlueGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(126 112) rotate(-8) scale(220 100)">
+      <stop stop-color="#38BDF8" stop-opacity="0.18"/>
+      <stop offset="0.55" stop-color="#0B4B78" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#060A12" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="titleGradient" x1="28" y1="48" x2="192" y2="78" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3EEE4"/>
+      <stop offset="0.58" stop-color="#F6B46B"/>
+      <stop offset="1" stop-color="#49C7F2"/>
+    </linearGradient>
+    <linearGradient id="borderGradient" x1="0" y1="0" x2="480" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8" stop-opacity="0.42"/>
+      <stop offset="0.5" stop-color="#F97316" stop-opacity="0.50"/>
+      <stop offset="1" stop-color="#F3EEE4" stop-opacity="0.10"/>
+    </linearGradient>
+    <pattern id="concentricPattern" width="120" height="120" patternUnits="userSpaceOnUse">
+      <circle cx="60" cy="60" r="18" stroke="#F6B46B" stroke-opacity="0.08" stroke-width="1"/>
+      <circle cx="60" cy="60" r="34" stroke="#38BDF8" stroke-opacity="0.06" stroke-width="1"/>
+      <circle cx="60" cy="60" r="52" stroke="#F3EEE4" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+    <filter id="textGlow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.93  0 1 0 0 0.52  0 0 1 0 0.18  0 0 0 0.34 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="480" height="180" rx="8" fill="url(#cardBackgroundGradient)"/>
+  <rect width="480" height="180" rx="8" fill="url(#concentricPattern)" opacity="0.82"/>
+  <rect width="480" height="180" rx="8" fill="url(#cardBlueGlow)"/>
+  <rect width="480" height="180" rx="8" fill="url(#cardAmberGlow)"/>
+  <path d="M28 124H164L204 84H342" stroke="#38BDF8" stroke-opacity="0.20" stroke-width="1"/>
+  <path d="M308 35H378L405 62H454" stroke="#E88A36" stroke-opacity="0.26" stroke-width="1.2"/>
+  <text x="28" y="62" fill="url(#titleGradient)" filter="url(#textGlow)" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="34" font-weight="700">Ahoum</text>
+  <text x="29" y="91" fill="#AEBCC8" fill-opacity="0.82" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15" font-weight="500">Operating System for the Soul</text>
+  <g font-family="SFMono-Regular, ui-monospace, monospace" font-size="11" font-weight="500">
+    <rect x="28" y="124" width="91" height="24" rx="6" fill="#F97316" fill-opacity="0.11" stroke="#F6B46B" stroke-opacity="0.28"/>
+    <text x="41" y="140" fill="#F6B46B">spiritual-ai</text>
+    <rect x="127" y="124" width="105" height="24" rx="6" fill="#38BDF8" fill-opacity="0.09" stroke="#49C7F2" stroke-opacity="0.25"/>
+    <text x="140" y="140" fill="#8EDCF8">ai-architecture</text>
+    <rect x="240" y="124" width="126" height="24" rx="6" fill="#F97316" fill-opacity="0.11" stroke="#F6B46B" stroke-opacity="0.30"/>
+    <text x="253" y="140" fill="#F6B46B">currently shipping</text>
+  </g>
+  <g transform="translate(421 125)" stroke="#F3EEE4" stroke-opacity="0.72" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M7 32H31C34 32 36 30 36 27V13"/>
+    <path d="M18 7H36V25"/>
+    <path d="M17 26L36 7"/>
+  </g>
+  <rect x="0.5" y="0.5" width="479" height="179" rx="7.5" stroke="url(#borderGradient)"/>
+</svg>
